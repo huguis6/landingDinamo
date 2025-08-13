@@ -97,6 +97,9 @@
   font-style: normal;
 }
 
+.carousel-inner{
+  max-height: 500px !important;
+}
 .poppins-semibold {
  font-family: 'Good Times Rg', sans-serif;  font-weight: 600;
   font-style: normal;
@@ -203,7 +206,13 @@ font-family: "Poppins", sans-serif;
   gap: 0.5rem;
   text-decoration: none;
 }
+.carousel img{
 
+  max-width: 100% !important; /* Ensures image scales down within its container */
+  height: auto !important;    /* Maintains aspect ratio, preventing distortion */
+  display: block !important;  /* Removes extra space below inline images */
+
+}
 .sucursal-row {
   display: flex;
   align-items: center;
