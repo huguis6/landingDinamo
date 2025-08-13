@@ -146,12 +146,13 @@ font-family: "Poppins", sans-serif;
   flex-wrap: wrap;
 }
 .sucursal-box {
-  background: linear-gradient(120deg, #C9C935 0%, #5AB359 100%);
+  background: linear-gradient(120deg, #f6fdf7 60%, #82C3BB22 100%);
+  border: 1.5px solid #5AB359;
   border-radius: 18px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   padding: 18px 18px 18px 18px;
   min-width: 320px;
-  max-width: 370px;
+  max-width: 1000px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -214,8 +215,13 @@ font-family: "Poppins", sans-serif;
 .sucursal-icon {
   width: 22px;
   height: 22px;
+  
+  filter: invert(32%) sepia(99%) saturate(749%) hue-rotate(86deg) brightness(90%) contrast(90%);
+  transition: filter 0.2s;
   object-fit: contain;
-  filter: hue-rotate(85deg) saturate(2.5) brightness(0.95);
+}
+.sucursal-icon:hover {
+  filter: brightness(0) invert(1);
 }
 .sucursal-wpp {
   display: flex;
