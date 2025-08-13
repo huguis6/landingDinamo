@@ -11,7 +11,7 @@
   font-weight: 500;
   line-height: 1.7;
   letter-spacing: 0.2px;
-  text-align: center;
+  text-align: justify;
   position: relative;
 }
 
@@ -162,7 +162,7 @@ font-family: "Poppins", sans-serif;
   gap: 18px;
   position: relative;
   transition: background 0.4s;
-}
+}/*
 .sucursal-box:hover {
   background: linear-gradient(120deg, #C9C935 0%, #5AB359 100%);
 }
@@ -179,7 +179,7 @@ font-family: "Poppins", sans-serif;
   background-color: linear-gradient(120deg, #f6fdf7 60%, #82C3BB22 100%) !important;
 }
 
-
+*/
 .sucursal-img {
   width: 90px;
   height: 90px;
@@ -296,6 +296,14 @@ font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
+.aboutus-content p{
+  max-width: 900px;
+  margin: 0 auto 32px auto;
+  padding: 24px 10px 0 10px;
+  text-align: justify;
+}
+
+
 
 .aboutus-areas-icons {
   display: flex;
@@ -320,7 +328,6 @@ font-family: "Poppins", sans-serif;
   max-width: 180px;
   width: 100%;
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-  cursor: pointer;
 }
 .aboutus-area-icon img {
   width: 48px;
@@ -357,8 +364,8 @@ font-family: "Poppins", sans-serif;
     padding: 18px 8px 12px 8px;
   }
   .aboutus-area-icon img {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     padding: 7px;
   }
 }
@@ -420,7 +427,6 @@ font-family: "Poppins", sans-serif;
   flex-direction: column;
   align-items: center;
   transition: background 0.2s, color 0.2s;
-  cursor: pointer;
 }
 
 
