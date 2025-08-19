@@ -1,3 +1,36 @@
+@media (max-width: 900px) {
+  .map-desktop {
+    display: none !important;
+  }
+  .map-mobile {
+    display: block !important;
+  }
+  .div_goodinfo{
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  .sucursal-wpp {
+    position: static;
+    width: 230px !important;
+    
+  } 
+  .sucursal-box{
+    align-items: center !important;
+  }
+  .sucursal-info{
+    margin: 0px;
+    margin-bottom: 20px !important;
+  }
+}
+@media (min-width: 901px) {
+  .map-desktop {
+    display: block !important;
+  }
+  .map-mobile {
+    display: none !important;
+  }
+}
 .moreAboutDinamo {
   background: linear-gradient(90deg, #f6fdf7 70%, #82C3BB22 100%);
   border-left: 6px solid #5AB359;
@@ -156,13 +189,21 @@ font-family: "Poppins", sans-serif;
   padding: 18px 18px 18px 18px;
   min-width: 320px;
   max-width: 1000px;
-  width: 100%;
+  width: 75%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 18px;
   position: relative;
   transition: background 0.4s;
-}/*
+
+}
+.div_goodinfo{
+  display: flex;
+
+}
+
+/*
 .sucursal-box:hover {
   background: linear-gradient(120deg, #C9C935 0%, #5AB359 100%);
 }
@@ -181,8 +222,8 @@ font-family: "Poppins", sans-serif;
 
 */
 .sucursal-img {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(29,185,84,0.10);
@@ -192,6 +233,7 @@ font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: 20px;
 }
 
 .footer-social {
@@ -221,8 +263,8 @@ font-family: "Poppins", sans-serif;
 }
 .carousel img{
 
-  max-width: 100% !important; /* Ensures image scales down within its container */
-  height: auto !important;    /* Maintains aspect ratio, preventing distortion */
+  max-width: 100% !important; 
+  height: auto !important;   
   display: block !important;  /* Removes extra space below inline images */
 
 }
@@ -248,8 +290,8 @@ font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: center;
   background: #5ab359;
-  border-radius: 50%;
-  width: 48px;
+  border-radius: 0%;
+  width: 250px;
   height: 48px;
   position: absolute;
   right: 18px;
@@ -257,6 +299,12 @@ font-family: "Poppins", sans-serif;
   box-shadow: 0 2px 8px rgba(29,185,84,0.13);
   transition: background 0.2s;
   z-index: 2;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
 }
 
 .sucursal-wpp:hover img {
