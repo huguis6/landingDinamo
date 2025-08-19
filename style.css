@@ -12,7 +12,7 @@
   }
   .sucursal-wpp {
     position: static;
-    width: 230px !important;
+    width: 170px !important;
     
   } 
   .sucursal-img{
@@ -52,6 +52,7 @@
   position: relative;
 }
 
+
 @media (max-width: 900px) {
   .moreAboutDinamo {
     padding: 1.2rem 3vw;
@@ -59,6 +60,11 @@
     max-width: 98vw;
     font-size: 1.01rem;
   }
+  .imgDecorativa img{
+    max-width: 100% !important;
+    width: 100vw !important;
+}
+
   .moreAboutDinamo::before, .moreAboutDinamo::after {
     font-size: 1.1rem;
     left: 8px;
@@ -296,7 +302,7 @@ font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: center;
   background: #5ab359;
-  border-radius: 0%;
+  border-radius: 10px;
   width: 250px;
   height: 48px;
   position: absolute;
@@ -306,6 +312,8 @@ font-family: "Poppins", sans-serif;
   transition: background 0.2s;
   z-index: 2;
 }
+
+
 a{
   text-decoration: none;
   color: #fff;
