@@ -9,6 +9,10 @@
     margin-left: calc(-1 * (100vw - 100%) / 2);
     border-radius: 0 0 18px 18px;
   }
+  .carousel img{
+        object-fit: cover;
+
+  }
 }
 @media (max-width: 900px) {
   #sucursal-wppIconLoco {
