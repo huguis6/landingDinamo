@@ -147,7 +147,15 @@
 @media (max-width: 600px) {
   .img-responsive {
     max-width: 100vw !important;
+    height: auto !important;
   }
+}
+picture img{
+  height: 600.67px !important;
+}
+
+.img-responsive{
+  height: 600.67px !important;
 }
 .sucursales-content {
   max-width: 900px;
