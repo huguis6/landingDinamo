@@ -148,7 +148,7 @@
 
   .div-texto span{
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.1rem !important;
 }
@@ -158,8 +158,12 @@
 .icon-specific{
   margin: 0px !important;
 }
-}
 
+
+}
+.sucursal-2{
+  margin-left: 10px !important ;
+}
 
 
 .carousel img {
@@ -703,5 +707,18 @@ height: 70px !important;
 }
 .sucursal-1{
   height: 230px;
+}
+
+.sucursal-3{
+  margin-left: 20px !important;
+}
+
+@media (max-width: 901px) {
+  .sucursal-3{
+  margin-left: 0px !important;
+}
+.sucursal-2{
+  margin-left: 0px !important;
+}
 }
   
