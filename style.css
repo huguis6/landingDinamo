@@ -13,10 +13,19 @@
         object-fit: cover;
 
   }
+  .sucursalIconAparece{
+    display: none !important;
+  }
+  .sucursal-iconDesaparece{
+    display: block !important;
+  }
 }
 @media (max-width: 900px) {
   #sucursal-wppIconLoco {
     bottom: 61px !important;
+  }
+  #div_goodinfoOlivos{
+    margin-bottom: 50px !important  ;
   }
 }
 @media (max-width: 900px) {
@@ -136,7 +145,23 @@
   .aboutUs_text {
     border-left: 3px solid #C9C935;
   }
+
+  .div-texto span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem !important;
 }
+.span-texto{
+  margin: 10px  !important; 
+}
+.icon-specific{
+  margin: 0px !important;
+}
+}
+
+
+
 .carousel img {
   width: 100%;
   height: 60vh !important;
@@ -205,6 +230,14 @@ font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.div-texto span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
 .sucursales-title {
   font-size: 2rem;
   background: linear-gradient(90deg, #C9C935 0%, #5AB359 100%);
@@ -228,9 +261,9 @@ font-family: "Poppins", sans-serif;
   border-radius: 18px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   padding: 18px 18px 18px 18px;
-  min-width: 320px;
+  min-width: 312px;
   max-width: 1000px;
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,10 +276,7 @@ font-family: "Poppins", sans-serif;
   display: flex;
 
 }
-#div_goodinfoOlivos{
-    margin-bottom: 40px;
 
-}
 /*
 .sucursal-box:hover {
   background: linear-gradient(120deg, #C9C935 0%, #5AB359 100%);
@@ -321,6 +351,8 @@ font-family: "Poppins", sans-serif;
   color: #222;
   font-weight: 500;
 }
+
+
 .sucursal-icon {
   width: 22px;
   height: 22px;
@@ -360,7 +392,7 @@ font-family: "Poppins", sans-serif;
   height: 48px;
   position: absolute;
   right: 18px;
-  bottom: 10px;
+  bottom: 19px;
   box-shadow: 0 2px 8px rgba(29,185,84,0.13);
   transition: background 0.2s;
 }
@@ -452,6 +484,11 @@ a{
   max-width: 180px;
   width: 100%;
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.icon-specific{
+  margin: 20px;
+  
 }
 .aboutus-area-icon img {
   width: 48px;
@@ -655,7 +692,16 @@ height: 70px !important;
   .map-mobile {
     display: none !important;
   }.wpp2{
-    bottom: 61px !important;
+    bottom: 80px !important;
 }
+.sucursalIconDesaparece{
+  display: none !important;
+}
+
+
+
+}
+.sucursal-1{
+  height: 230px;
 }
   
