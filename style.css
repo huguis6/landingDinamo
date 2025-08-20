@@ -1,4 +1,16 @@
 @media (max-width: 900px) {
+  .banner-ml {
+    width: 90vw !important;
+    max-width: 90vw !important;
+    height: 315px !important;
+    max-height: 315px !important;
+    object-fit: cover;
+    margin: auto;
+    margin-left: calc(-1 * (100vw - 100%) / 2);
+    border-radius: 0 0 18px 18px;
+  }
+}
+@media (max-width: 900px) {
   #sucursal-wppIconLoco {
     bottom: 61px !important;
   }
