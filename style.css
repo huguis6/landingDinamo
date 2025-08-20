@@ -23,6 +23,7 @@
 @media (max-width: 900px) {
   #sucursal-wppIconLoco {
     bottom: 61px !important;
+    right: 61px;
   }
   #div_goodinfoOlivos{
     margin-bottom: 50px !important  ;
@@ -445,11 +446,11 @@ a{
     padding-bottom: 60px;
   }
   .sucursal-wpp {
-    right: 18px;
+    right: 61px;
     bottom: 18px;
   }
     .sucursal-wpp2 {
-    right: 18px;
+    right: 61px;
     bottom: 5px;
   }
 }
