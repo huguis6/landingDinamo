@@ -150,7 +150,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 1.1rem !important;
+  font-size: 1.3rem !important;
 }
 .span-texto{
   margin: 10px  !important; 
@@ -237,9 +237,13 @@ font-family: "Poppins", sans-serif;
 
 .div-texto span{
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.7rem;
+}
+
+.div-texto i{
+  margin-right: 15px;
 }
 
 .sucursales-title {
